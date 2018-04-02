@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.CashFlow", "Challenge.CashFlow\Challenge.CashFlow.csproj", "{48EB44BA-A188-487A-9E95-3AD4B27184DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.CashFlow.Tests", "Challenge.CashFlow.Tests\Challenge.CashFlow.Tests.csproj", "{CB238D1E-EA0C-465C-84A1-B20D40474BE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48EB44BA-A188-487A-9E95-3AD4B27184DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48EB44BA-A188-487A-9E95-3AD4B27184DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48EB44BA-A188-487A-9E95-3AD4B27184DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48EB44BA-A188-487A-9E95-3AD4B27184DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB238D1E-EA0C-465C-84A1-B20D40474BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB238D1E-EA0C-465C-84A1-B20D40474BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB238D1E-EA0C-465C-84A1-B20D40474BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB238D1E-EA0C-465C-84A1-B20D40474BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

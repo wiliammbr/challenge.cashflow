@@ -1,0 +1,33 @@
+﻿<div class="jumbotron">
+    <h1>Welcome to the Cash Flow System</h1>
+    <p class="lead">Here you can register any transaction made in your store.</p>
+</div>
+<div ng-app="myApp" class="row">
+    <div ng-controller="transactionsCtrl" class="col-md-12">
+        <table id="overview" class="table">
+            <tr>
+                <th>
+                    When?
+                </th>
+                <th>
+                    Number of transactions
+                </th>
+                <th>
+                    Total amount
+                </th>
+            </tr>
+            <tr ng-repeat="o in items">
+                <td>
+                    {{o.Title}}
+                </td>
+                <td>
+                    {{o.Total}}
+                </td>
+                <td>
+                    {{o.TotalAmount}}
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script src="~/ViewModels/Home/main.js"></script>
+</div>

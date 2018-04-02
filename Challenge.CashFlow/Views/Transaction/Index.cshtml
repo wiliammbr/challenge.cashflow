@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Challenge.CashFlow.Models.Transaction>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+
+<div ng-app="myApp" class="row">
+    <div ng-controller="transactionListCtrl as vm" class="col-md-12">
+
+        <table id="listTable" ng-table="vm.tableParams" class="table table-bordered table-striped table-condensed">
+            <tr ng-repeat="row in $data track by row.Id">
+                <td data-title="'Description'" filter="{Description: 'text'}" sortable="'Description'">
+                    {{row.Description}}
+                </td>
+                <td data-title="'Amount'" filter="{Amount: 'number'}" sortable="'Amount'">
+                    {{row.Amount}}
+                </td>
+                <td data-title="'Payment Type'" filter="{PaymentType: 'text'}" sortable="'PaymentType'">
+                    {{row.PaymentTypeText}}
+                </td>
+                <td data-title="'Date (dd/MM/yyyy)'" filter="{Date: 'text'}" sortable="'Date'">
+                    {{row.Date | date : 'dd/MM/yyyy'}}
+                </td>
+                <td>
+                    @if (ViewContext.HttpContext.User.IsInRole("Manager"))
+                    {
+                        <a ng-href="@Url.Action("Edit", "Transaction")/{{row.Id}}">Edit</a>
+                        @Html.Raw(" |")
+                    }
+                    <a ng-href="@Url.Action("Details", "Transaction")/{{row.Id}}">Details</a>
+                    @if (ViewContext.HttpContext.User.IsInRole("Manager"))
+                    {
+                        @Html.Raw("| ")
+                        <a ng-href="@Url.Action("Delete", "Transaction")/{{row.Id}}">Delete</a>
+                    }
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<script src="~/ViewModels/Transaction/main.js"></script>
