@@ -66,6 +66,5 @@ C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow\bin\Sys
 C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow\bin\System.Web.WebPages.xml
 C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow\bin\System.Web.WebPages.Deployment.xml
 C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow\bin\System.Web.WebPages.Razor.xml
-C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow\obj\Debug\Challenge.CashFlow.csprojResolveAssemblyReference.cache
 C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow\obj\Debug\Challenge.CashFlow.dll
 C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow\obj\Debug\Challenge.CashFlow.pdb
