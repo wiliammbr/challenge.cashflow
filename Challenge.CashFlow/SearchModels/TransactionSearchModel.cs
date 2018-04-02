@@ -8,9 +8,11 @@ namespace Challenge.CashFlow.SearchModels
     public class TransactionSearchModel
     {
         public string Description { get; set; }
-        public decimal? Amount { get; set; }
+        public decimal? AmountFrom { get; set; }
+        public decimal? AmountTo { get; set; }
         public string PaymentType { get; set; }
-        public DateTime? Date { get; set; }
+        public DateTime? DateFrom { get; set; }
+        public DateTime? DateTo { get; set; }
         
         public string DescriptionSort { get; set; }
         public string AmountSort { get; set; }

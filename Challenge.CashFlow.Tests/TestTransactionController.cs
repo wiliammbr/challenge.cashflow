@@ -82,7 +82,7 @@ namespace Challenge.CashFlow.Tests
             Assert.IsNotNull(result);
             Assert.AreEqual(10, result.Content.Count);
 
-            result = controller.GetTransactions(new TransactionSearchModel() { Amount = 5 }) as OkNegotiatedContentResult<List<Transaction>>;
+            result = controller.GetTransactions(new TransactionSearchModel() { AmountFrom = 5 }) as OkNegotiatedContentResult<List<Transaction>>;
             Assert.IsNotNull(result);
             Assert.AreEqual(10, result.Content.Count);
         }

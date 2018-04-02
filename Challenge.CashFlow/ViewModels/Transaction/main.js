@@ -4,7 +4,51 @@ jListTable.append('<div class="modal"></div>');
 
 (function () {
 
-    app.controller('transactionListCtrl', function (NgTableParams, $scope, $http, $resource) {
+    app.controller('transactionListCtrl', function (NgTableParams, $scope, $http, $resource) {       
+
+        this.amountFilterDef = {
+            AmountFrom: {
+                id: "number",
+                placeholder: "From"
+            },
+            AmountTo: {
+                id: "number",
+                placeholder: "To"
+            }
+        };
+        this.dateFilterDef = {
+            DateFrom: {
+                id: "text",
+                placeholder: "From"
+            },
+            DateTo: {
+                id: "text",
+                placeholder: "To"
+            }
+        };
+
+        this.dateFilterDef = {
+            DateFrom: {
+                id: "text",
+                placeholder: "From"
+            },
+            DateTo: {
+                id: "text",
+                placeholder: "To"
+            }
+        };
+
+        this.paymentTypes = [
+            {
+                'id': 'C',
+                'title': 'Credit Card'
+            },
+            {
+                'id': 'M',
+                'title': 'Money'
+            }
+        ];
+        
         this.tableParams = new NgTableParams({
             page: 1,
             count: 10,
@@ -18,24 +62,18 @@ jListTable.append('<div class="modal"></div>');
         }, {
             getData: function (params) {
                 var $deferred = $.Deferred();
-
-                debugger;
                 jListTable.addClass('loading');
-                var dateFilter = params.filter().Date;
-                if (dateFilter && dateFilter.length === 10) {
-                    dateFilter = moment(params.filter().Date, 'DD/MM/YYYY').format('MM/DD/YYYY');
-                } else {
-                    dateFilter = '';
-                }
-
+                debugger;
                 $http({
                     url: '/api/Transaction/GetTransactions',
                     method: 'GET',
                     params: {
                         Description: params.filter().Description,
-                        Amount: params.filter().Amount,
+                        AmountFrom: params.filter().AmountFrom,
+                        AmountTo: params.filter().AmountTo,
                         PaymentType: params.filter().PaymentType,
-                        Date: dateFilter,
+                        DateFrom: formatDate(params.filter().DateFrom),
+                        DateTo: formatDate(params.filter().DateTo),
                         PageNumber: params.page(),
                         PageSize: params.count(),
                         DescriptionSort: params.sorting().Description,
@@ -65,3 +103,15 @@ jListTable.append('<div class="modal"></div>');
     });
 
 })();
+
+formatDate = function (date) {
+    if (date && date.length === 10) {
+        return moment(date, 'DD/MM/YYYY').format('MM/DD/YYYY');
+    } else {
+        return '';
+    }
+};
+
+$(document).ready(function ($) {
+    $('input[type=text][name*=Date]').mask('99/99/9999');
+});

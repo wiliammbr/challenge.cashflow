@@ -64,13 +64,15 @@ namespace Challenge.CashFlow.ApiControllers
                 if (!string.IsNullOrEmpty(searchModel.Description))
                     transactions = transactions.Where(x => x.Description.Contains(searchModel.Description));
                 if (!string.IsNullOrEmpty(searchModel.PaymentType))
-                    transactions = transactions.Where(x => x.PaymentType == searchModel.PaymentType || searchModel.PaymentType.StartsWith(x.PaymentType));
-                // filter all transactions that amount are higher than the parameter
-                if (searchModel.Amount.HasValue)
-                    transactions = transactions.Where(x => x.Amount >= searchModel.Amount);
-                // filter all transactions that date are higher than the parameter
-                if (searchModel.Date.HasValue)
-                    transactions = transactions.Where(x => x.Date >= searchModel.Date);
+                    transactions = transactions.Where(x => x.PaymentType == searchModel.PaymentType);
+                if (searchModel.AmountFrom.HasValue)
+                    transactions = transactions.Where(x => x.Amount >= searchModel.AmountFrom);
+                if (searchModel.AmountTo.HasValue)
+                    transactions = transactions.Where(x => x.Amount <= searchModel.AmountTo);
+                if (searchModel.DateFrom.HasValue)
+                    transactions = transactions.Where(x => x.Date >= searchModel.DateFrom);
+                if (searchModel.DateTo.HasValue)
+                    transactions = transactions.Where(x => x.Date <= searchModel.DateTo);
 
                 if (searchModel.DescriptionSort == "asc")
                 {

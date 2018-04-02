@@ -20,13 +20,13 @@
                 <td data-title="'Description'" filter="{Description: 'text'}" sortable="'Description'">
                     {{row.Description}}
                 </td>
-                <td data-title="'Amount'" filter="{Amount: 'number'}" sortable="'Amount'">
+                <td data-title="'Amount'" filter="vm.amountFilterDef" sortable="'Amount'">
                     {{row.Amount}}
                 </td>
-                <td data-title="'Payment Type'" filter="{PaymentType: 'text'}" sortable="'PaymentType'">
+                <td data-title="'Payment Type'" filter="{PaymentType: 'select'}" sortable="'PaymentType'" filter-data="vm.paymentTypes">
                     {{row.PaymentTypeText}}
                 </td>
-                <td data-title="'Date (dd/MM/yyyy)'" filter="{Date: 'text'}" sortable="'Date'">
+                <td data-title="'Date (dd/MM/yyyy)'" filter="vm.dateFilterDef" sortable="'Date'">
                     {{row.Date | date : 'dd/MM/yyyy'}}
                 </td>
                 <td>
