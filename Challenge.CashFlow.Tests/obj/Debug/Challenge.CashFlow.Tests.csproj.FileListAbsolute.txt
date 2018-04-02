@@ -30,3 +30,35 @@ C:\Users\Wiliam\documents\visual studio 2013\Projects\Challenge.CashFlow\Challen
 C:\Users\Wiliam\documents\visual studio 2013\Projects\Challenge.CashFlow\Challenge.CashFlow.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\Wiliam\documents\visual studio 2013\Projects\Challenge.CashFlow\Challenge.CashFlow.Tests\obj\Debug\Challenge.CashFlow.Tests.dll
 C:\Users\Wiliam\documents\visual studio 2013\Projects\Challenge.CashFlow\Challenge.CashFlow.Tests\obj\Debug\Challenge.CashFlow.Tests.pdb
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\Challenge.CashFlow.Tests.dll.config
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\Challenge.CashFlow.Tests.dll
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\Challenge.CashFlow.Tests.pdb
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\Challenge.CashFlow.dll
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\EntityFramework.dll
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\Challenge.CashFlow.pdb
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\EntityFramework.xml
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\obj\Debug\Challenge.CashFlow.Tests.csprojResolveAssemblyReference.cache
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\obj\Debug\Challenge.CashFlow.Tests.dll
+C:\Users\wiliam.rocha\Downloads\ad\challenge.cashflow\Challenge.CashFlow.Tests\obj\Debug\Challenge.CashFlow.Tests.pdb
